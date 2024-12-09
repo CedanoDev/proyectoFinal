@@ -19,6 +19,8 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 10px;
+}
+.gallery a {
     text-align: center;
     text-decoration: none;
     color: inherit;
