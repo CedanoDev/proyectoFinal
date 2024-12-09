@@ -17,13 +17,9 @@ h1 {
 
 .gallery {
     display: grid;
+    text-align: center;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 10px;
-}
-.gallery a {
-    text-align: center;
-    text-decoration: none;
-    color: inherit;
 }
 
 .cover {
@@ -42,4 +38,8 @@ h1 {
 .cover:hover {
     transform: scale(1.05);
     border-color: #333;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
